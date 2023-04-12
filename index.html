@@ -91,14 +91,15 @@
     <div class="container mt-5">
       <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+<!--         <header class="post-header">
           <h1 class="post-title">
-           Zhanhao Hu
+           Zhanhao Hu (胡展豪)
           </h1>
-          <p class="desc"><a href="#">Affiliations</a>. Tsinghua University. huzhanha17@mails.tsinghua.edu.cn.</p>
-        </header>
+          <p class="desc">Ph.D. student at Tsinghua University</p>
+        </header> -->
 
         <article>
+          <!-- profile photo -->
           <div class="profile float-right">
 
               <figure>
@@ -119,8 +120,34 @@
 
           </div>
 
+          <!-- name -->
+          <h1 class="post-title">
+           Zhanhao Hu (胡展豪)
+          </h1>
+          <p class="desc">Ph.D. student at Tsinghua University</p>
+
+          <!-- social -->
+
+          <!-- content -->
           <div class="clearfix">
-            <p>I am a Ph.D. student in the Department of Computer Science at Tsinghua University, where I have been pursuing my degree since 2017 under the guidance of Prof. Bo Zhang and Prof. Xiaolin Hu. My current research interests mainly focused on the adversarial examples and the privacy risks of deep learning models. Additionally, my research experience includes visual classification, visual detection, point-cloud detection, federated learning, and 3D modeling.</p>
+            <p>Contact:<br>
+  <a href="mailto:%68%75%7A%68%61%6E%68%61%31%37@%6D%61%69%6C%73.%74%73%69%6E%67%68%75%61.%65%64%75.%63%6E" title="email"><i class="fas fa-envelope"></i></a> huzhanha17[AT]mails[DOT]tsinghua[DOT]edu[DOT]cn <br>
+  <a href="https://scholar.google.com/citations?user=PGdm9MUAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> Google Scholar 
+  <a href="https://github.com/WhoTHU" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a> Github</p>
+
+<p>Affiliation:<br>
+ <a href="https://www.cs.tsinghua.edu.cn/csen/" rel="external nofollow noopener" target="_blank">Department of Computer Science and Technology</a>,<br>
+ <a href="http://www.csai.tsinghua.edu.cn/" rel="external nofollow noopener" target="_blank">State Key Laboratory of Intelligent Technology and Systems(CSAI)</a>,<br>
+ <a href="https://www.tsinghua.edu.cn/en/" rel="external nofollow noopener" target="_blank">Tsinghua University</a>, Beijing 100084, China</p>
+
+<p>Also affiliated with:<br>
+ <a href="https://brain.tsinghua.edu.cn/" rel="external nofollow noopener" target="_blank">Tsinghua Laboratory of Brain and Intelligence (THBI)</a>,<br>
+ <a href="http://mcgovern.life.tsinghua.edu.cn/en" rel="external nofollow noopener" target="_blank">IDG/McGovern Institute for Brain Research at Tsinghua</a>,</p>
+
+<hr>
+
+<p>I am a Ph.D. student in the Department of Computer Science at Tsinghua University, where I have been pursuing my degree since 2017 under the guidance of <a href="https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm" rel="external nofollow noopener" target="_blank">Prof. Bo Zhang</a> and <a href="http://xlhu.cn/" rel="external nofollow noopener" target="_blank">Prof. Xiaolin Hu</a>. I currently focus on the adversarial examples and the privacy risks of deep learning models.
+<!-- , including visual classification, visual detection, point-cloud detection, and federated learning models. --></p>
 
           </div>
 
@@ -131,36 +158,22 @@
           
 
           <!-- Selected papers -->
-          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
+          <hr>
+            <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
             <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CVPR</abbr></div>
-
+        <div class="col-sm-1"><div class="abbr"><abbr class="badge">CVPR</abbr></div></div>
         <!-- Entry bib key -->
-        <div id="hu2023physically" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Physically Realizable Natural-Looking Clothing Textures Evade Person Detectors via 3D Modeling</div>
-        <!-- Author -->
+        <div id="hu2023physically" class="col-sm-6">
+        <!-- Title --><div class="title">Physically Realizable Natural-Looking Clothing Textures Evade Person Detectors via 3D Modeling</div>
+<!-- Author -->
         <div class="author">
         
 
-        <em>Zhanhao Hu*</em>, Wenda Chu*, Xiaopei Zhu, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Hui Zhang, Bo Zhang, Xiaolin Hu' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
+        <em>Zhanhao Hu*</em>, Wenda Chu*, Xiaopei Zhu, Hui Zhang, Bo Zhang, and Xiaolin Hu</div>
 
         <!-- Journal/Book title and date -->
         
@@ -171,9 +184,11 @@
         <div class="periodical">
           
         </div>
-
-          <!-- Links/Buttons -->
+        <!-- additional information --><div class="clearfix">Note: The paper and code will be public soon</div>
+<!-- Links/Buttons -->
           <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/video/2023natural.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
           </div>
           
           <div class="badges">
@@ -181,37 +196,54 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">hu2023physically</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Physically Realizable Natural-Looking Clothing Textures Evade Person Detectors via 3D Modeling}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu*, Zhanhao and Chu*, Wenda and Zhu, Xiaopei and Zhang, Hui and Zhang, Bo and Hu, Xiaolin}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{2023natural.mp4}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
-      </div>
+
+        <!-- preview -->
+        <div class="col-sm-4 preview">
+          <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/2023natural-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/2023natural-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/2023natural-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/2023natural.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="2023natural.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+        </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CVPR</abbr></div>
-
+        <div class="col-sm-1">
+<div class="abbr"><abbr class="badge">CVPR</abbr></div>
+<div class="emph"> 
+            Oral
+          </div>
+</div>
         <!-- Entry bib key -->
-        <div id="hu2022adversarial" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Adversarial texture for fooling person detectors in the physical world</div>
-        <!-- Author -->
+        <div id="hu2022adversarial" class="col-sm-6">
+        <!-- Title --><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Hu_Adversarial_Texture_for_Fooling_Person_Detectors_in_the_Physical_World_CVPR_2022_paper.html" rel="external nofollow noopener" target="_blank"> <div class="title">Adversarial texture for fooling person detectors in the physical world</div> </a><!-- Author -->
         <div class="author">
         
 
-        <em>Zhanhao Hu</em>, Siyuan Huang, Xiaopei Zhu, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Fuchun Sun, Bo Zhang, Xiaolin Hu' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
+        <em>Zhanhao Hu</em>, Siyuan Huang, Xiaopei Zhu, Fuchun Sun, Bo Zhang, and Xiaolin Hu</div>
 
         <!-- Journal/Book title and date -->
         
@@ -222,10 +254,12 @@
         <div class="periodical">
           
         </div>
-
-          <!-- Links/Buttons -->
+        <!-- additional information --><!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="http://arxiv.org/abs/2203.03373" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="https://github.com/WhoTHU/Adversarial_Texture" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="/assets/video/2022texture.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
           </div>
           
           <div class="badges">
@@ -236,43 +270,53 @@
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">hu2022adversarial</span><span class="p">,</span>
+  <span class="na">emph</span> <span class="p">=</span> <span class="s">{Oral}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Adversarial texture for fooling person detectors in the physical world}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Zhanhao and Huang, Siyuan and Zhu, Xiaopei and Sun, Fuchun and Zhang, Bo and Hu, Xiaolin}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{13307--13316}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{2022texture.mp4}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
-      </div>
+
+        <!-- preview -->
+        <div class="col-sm-4 preview">
+          <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/2022texture-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/2022texture-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/2022texture-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/2022texture.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="2022texture.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+        </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CVPR</abbr></div>
-
+        <div class="col-sm-1">
+<div class="abbr"><abbr class="badge">CVPR</abbr></div>
+<div class="emph"> 
+            Oral
+          </div>
+</div>
         <!-- Entry bib key -->
-        <div id="zhu2022infrared" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Infrared invisible clothing: Hiding from infrared detectors at multiple angles in real world</div>
-        <!-- Author -->
+        <div id="zhu2022infrared" class="col-sm-6">
+        <!-- Title --><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_Infrared_Invisible_Clothing_Hiding_From_Infrared_Detectors_at_Multiple_Angles_CVPR_2022_paper.html" rel="external nofollow noopener" target="_blank"> <div class="title">Infrared invisible clothing: Hiding from infrared detectors at multiple angles in real world</div> </a><!-- Author -->
         <div class="author">
         
 
-        Xiaopei Zhu, <em>Zhanhao Hu</em>, Siyuan Huang, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Jianmin Li, Xiaolin Hu' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+        Xiaopei Zhu, <em>Zhanhao Hu</em>, Siyuan Huang, Jianmin Li, and Xiaolin Hu</div>
 
         <!-- Journal/Book title and date -->
         
@@ -283,9 +327,12 @@
         <div class="periodical">
           
         </div>
-
-          <!-- Links/Buttons -->
+        <!-- additional information --><!-- Links/Buttons -->
           <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="http://arxiv.org/abs/2205.05909" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="/assets/video/2022infrared.mp4" class="btn btn-sm z-depth-0" role="button">Video1</a>
+            <a href="/assets/video/2022infrared_manufacture.mp4" class="btn btn-sm z-depth-0" role="button">Video2</a>
           </div>
           
           <div class="badges">
@@ -293,30 +340,47 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">zhu2022infrared</span><span class="p">,</span>
+  <span class="na">emph</span> <span class="p">=</span> <span class="s">{Oral}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Infrared invisible clothing: Hiding from infrared detectors at multiple angles in real world}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhu, Xiaopei and Hu, Zhanhao and Huang, Siyuan and Li, Jianmin and Hu, Xiaolin}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{13317--13326}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{2022infrared.mp4}</span><span class="p">,</span>
+  <span class="na">video2</span> <span class="p">=</span> <span class="s">{2022infrared_manufacture.mp4}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
-      </div>
+
+        <!-- preview -->
+        <div class="col-sm-4 preview">
+          <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/2022infrared-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/2022infrared-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/2022infrared-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/2022infrared.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="2022infrared.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+        </div>
 </li>
 </ol>
           </div>
 
 
           <!-- Social -->
-            <div class="social">
-              <div class="contact-icons">
-                <a href="mailto:%68%75%7A%68%61%6E%68%61%31%37@%6D%61%69%6C%73.%74%73%69%6E%67%68%75%61.%65%64%75.%63%6E" title="email"><i class="fas fa-envelope"></i></a>
-            <a href="https://scholar.google.com/citations?user=PGdm9MUAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-            <a href="https://github.com/WhoTHU" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            
 
-              </div>
-
-              <div class="contact-note">
-                
-              </div>
-
-            </div>
         </article>
 
 </div>
@@ -326,7 +390,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Zhanhao  Hu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2023 Zhanhao  Hu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>

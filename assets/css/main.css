@@ -84,7 +84,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .profile img {
@@ -191,6 +191,8 @@ blockquote {
 
 .profile {
   width: 100%;
+  min-width: 100px;
+  max-width: 250px;
 }
 .profile .address {
   margin-bottom: 5px;
@@ -537,8 +539,8 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .preview {
   width: 100%;
-  min-width: 80px;
-  max-width: 200px;
+  min-width: 200px;
+  max-width: 300px;
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
@@ -559,6 +561,13 @@ footer.sticky-bottom {
 .publications ol.bibliography li .abbr .award {
   color: var(--global-theme-color) !important;
   border: 1px solid var(--global-theme-color);
+}
+.publications ol.bibliography li .emph {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--global-theme-color) !important;
 }
 .publications ol.bibliography li .title {
   font-weight: bolder;
