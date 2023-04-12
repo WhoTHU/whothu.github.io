@@ -4,14 +4,15 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+<!--         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           {% if site.show_title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.show_title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
-        </header>
+        </header> -->
 
         <article>
+          <!-- profile photo -->
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -28,6 +29,11 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
+            {%- if page.profile.show_social %}
+              <div class="contact-icons" style="height:100%">
+                {% include social.html %}
+              </div>
+            {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
@@ -36,6 +42,20 @@ layout: default
           </div>
           {%- endif %}
 
+          <!-- name -->
+          <h1 class="post-title">
+           {% if site.show_title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.show_title }}{%- endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+
+          <!-- social -->
+          {%- if page.show_social_under_name %}
+            <div class="contact-icons" style="height:200%">
+              {% include social.html %}
+            </div>
+          {%- endif %}
+
+          <!-- content -->
           <div class="clearfix">
             {{ content }}
           </div>
@@ -54,6 +74,7 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
+            <hr />
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
@@ -71,6 +92,7 @@ layout: default
 
             </div>
           {%- endif %}
+
         </article>
 
 </div>
