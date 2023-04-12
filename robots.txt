@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zhanhaohu.github.io/sitemap.xml
+Sitemap: https://whoth.github.io/sitemap.xml
