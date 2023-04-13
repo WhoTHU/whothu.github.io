@@ -1,0 +1,15 @@
+<script>
+  function toggleVideo(videoPath, videoContainer) {
+    if (videoContainer.classList.contains('hidden')) {
+      videoContainer.classList.remove('hidden');
+      var videoElement = document.createElement('video');
+      videoElement.setAttribute('autoplay', '');
+      videoElement.setAttribute('controls', '');
+      videoElement.setAttribute('src', '/assets/video/' + videoPath);
+      videoContainer.appendChild(videoElement);
+    } else {
+      videoContainer.classList.add('hidden');
+      videoContainer.innerHTML = '';
+    }
+  }
+</script>

@@ -38,5 +38,7 @@ Also affiliated with:\
 
 <hr />
 
-I am a Ph.D. student in the Department of Computer Science at Tsinghua University, where I have been pursuing my degree since 2017 under the guidance of [Prof. Bo Zhang](https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm) and [Prof. Xiaolin Hu](http://xlhu.cn/). I currently focus on the adversarial examples and the privacy risks of deep learning models.
+I am a Ph.D. student in the Department of Computer Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I have been pursuing my degree since 2017 under the guidance of [Prof. Bo Zhang](https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm) and [Prof. Xiaolin Hu](http://xlhu.cn/). I received my Bachelor’s degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/en/). My current research interest primarily includes adversarial examples and privacy risks in deep learning models. With a keen interest in identifying and tackling anomalous behavior in deep learning models, my goal is to contribute to the development of reliable and trustworthy AI systems.
+
+
 <!-- , including visual classification, visual detection, point-cloud detection, and federated learning models. -->

@@ -189,11 +189,22 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           {%- if entry.video %}
-            <a href="/assets/video/{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">{%- if entry.video2 %}Video1{%- else %}Video{%- endif %}</a>
+            <!-- <a href="/assets/video/{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">{%- if entry.video2 %}Video1{%- else %}Video{%- endif %}</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '{{ entry.video }}';
+                var videoContainer = document.getElementById('video-container-{{entry.video}}');
+                toggleVideo(video1Path, videoContainer);
+              })();">{%- if entry.video2 %}Video_1{%- else %}Video{%- endif %}</a>
           {%- endif %}
           {%- if entry.video2 %}
-            <a href="/assets/video/{{ entry.video2 }}" class="btn btn-sm z-depth-0" role="button">Video2</a>
+            <!-- <a href="/assets/video/{{ entry.video2 }}" class="btn btn-sm z-depth-0" role="button">Video2</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+              var video2Path = '{{ entry.video2 }}';
+              var videoContainer = document.getElementById('video-container-{{entry.video2}}');
+              toggleVideo(video2Path, videoContainer);
+            })();">Video_2</a>
           {%- endif %}
+          <!-- Hidden video container -->
           </div>
           {% if site.badges %}
           <div class="badges">
@@ -255,4 +266,10 @@
           {%- endif -%}
         </div>
         {% endif -%}
+        {%- if entry.video %}
+          <div id="video-container-{{entry.video}}" class="video-container hidden"></div>
+        {%- endif %}
+        {%- if entry.video2 %}
+          <div id="video-container-{{entry.video2}}" class="video-container hidden"></div>
+        {%- endif %}
       </div>
