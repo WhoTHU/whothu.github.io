@@ -191,8 +191,8 @@ blockquote {
 
 .profile {
   width: 100%;
-  min-width: 25vh;
-  max-width: 28vh;
+  min-width: 100px;
+  max-width: 270px;
 }
 .profile .address {
   margin-bottom: 5px;
@@ -526,7 +526,7 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 1rem;
   margin-top: 2rem;
-  margin-bottom: -2rem;
+  _margin-bottom: -2rem;
   text-align: right;
 }
 .publications ol.bibliography {
@@ -535,7 +535,9 @@ footer.sticky-bottom {
   margin-top: 0;
 }
 .publications ol.bibliography video {
-  width: 100vh;
+  width: 100%;
+  min-width: 200px;
+  max-width: 1000px;
 }
 .publications ol.bibliography li {
   margin-bottom: 1rem;
@@ -543,7 +545,7 @@ footer.sticky-bottom {
 .publications ol.bibliography li .preview {
   width: 100%;
   min-width: 200px;
-  max-width: 300px;
+  max-width: 400px;
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
