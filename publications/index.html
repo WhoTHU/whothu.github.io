@@ -128,7 +128,13 @@
 <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="/assets/video/2023natural.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
+            <!-- <a href="/assets/video/2023natural.mp4" class="btn btn-sm z-depth-0" role="button">Video</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2023natural.mp4';
+                var videoContainer = document.getElementById('video-container-2023natural.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -166,7 +172,9 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2023natural.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -193,6 +201,7 @@
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2301.13096" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -229,7 +238,8 @@
 
 </figure>
 </div>
-        </div>
+        
+      </div>
 </li>
 </ol>
 
@@ -260,6 +270,7 @@
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2208.08270" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -296,7 +307,8 @@
 
 </figure>
 </div>
-        </div>
+        
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -329,7 +341,13 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2203.03373" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a href="https://github.com/WhoTHU/Adversarial_Texture" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-            <a href="/assets/video/2022texture.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
+            <!-- <a href="/assets/video/2022texture.mp4" class="btn btn-sm z-depth-0" role="button">Video</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2022texture.mp4';
+                var videoContainer = document.getElementById('video-container-2022texture.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -369,7 +387,9 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2022texture.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -401,8 +421,19 @@
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2205.05909" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-            <a href="/assets/video/2022infrared.mp4" class="btn btn-sm z-depth-0" role="button">Video1</a>
-            <a href="/assets/video/2022infrared_manufacture.mp4" class="btn btn-sm z-depth-0" role="button">Video2</a>
+            <!-- <a href="/assets/video/2022infrared.mp4" class="btn btn-sm z-depth-0" role="button">Video1</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2022infrared.mp4';
+                var videoContainer = document.getElementById('video-container-2022infrared.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video_1</a>
+            <!-- <a href="/assets/video/2022infrared_manufacture.mp4" class="btn btn-sm z-depth-0" role="button">Video2</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+              var video2Path = '2022infrared_manufacture.mp4';
+              var videoContainer = document.getElementById('video-container-2022infrared_manufacture.mp4');
+              toggleVideo(video2Path, videoContainer);
+            })();">Video_2</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -443,7 +474,10 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2022infrared.mp4" class="video-container hidden"></div>
+          <div id="video-container-2022infrared_manufacture.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -470,6 +504,7 @@
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/WhoTHU/Amplification_trojan" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -510,7 +545,8 @@
 
 </figure>
 </div>
-        </div>
+        
+      </div>
 </li>
 </ol>
 
@@ -541,6 +577,7 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2203.03379" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a href="https://github.com/WhoTHU/spiking-hopfield-STDP" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -580,7 +617,8 @@
 
 </figure>
 </div>
-        </div>
+        
+      </div>
 </li></ol>
 
 
@@ -714,5 +752,20 @@
   }
 </script>
 
+    <script>
+  function toggleVideo(videoPath, videoContainer) {
+    if (videoContainer.classList.contains('hidden')) {
+      videoContainer.classList.remove('hidden');
+      var videoElement = document.createElement('video');
+      videoElement.setAttribute('autoplay', '');
+      videoElement.setAttribute('controls', '');
+      videoElement.setAttribute('src', '/assets/video/' + videoPath);
+      videoContainer.appendChild(videoElement);
+    } else {
+      videoContainer.classList.add('hidden');
+      videoContainer.innerHTML = '';
+    }
+  }
+</script>
   </body>
 </html>

@@ -146,8 +146,9 @@
 
 <hr>
 
-<p>I am a Ph.D. student in the Department of Computer Science at Tsinghua University, where I have been pursuing my degree since 2017 under the guidance of <a href="https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm" rel="external nofollow noopener" target="_blank">Prof. Bo Zhang</a> and <a href="http://xlhu.cn/" rel="external nofollow noopener" target="_blank">Prof. Xiaolin Hu</a>. I currently focus on the adversarial examples and the privacy risks of deep learning models.
-<!-- , including visual classification, visual detection, point-cloud detection, and federated learning models. --></p>
+<p>I am a Ph.D. student in the Department of Computer Science at <a href="https://www.tsinghua.edu.cn/en/" rel="external nofollow noopener" target="_blank">Tsinghua University</a>, where I have been pursuing my degree since 2017 under the guidance of <a href="https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm" rel="external nofollow noopener" target="_blank">Prof. Bo Zhang</a> and <a href="http://xlhu.cn/" rel="external nofollow noopener" target="_blank">Prof. Xiaolin Hu</a>. I received my Bachelor’s degree in Mathematics and Physics from <a href="https://www.tsinghua.edu.cn/en/" rel="external nofollow noopener" target="_blank">Tsinghua University</a>. My current research interest primarily includes adversarial examples and privacy risks in deep learning models. With a keen interest in identifying and tackling anomalous behavior in deep learning models, my goal is to contribute to the development of reliable and trustworthy AI systems.</p>
+
+<!-- , including visual classification, visual detection, point-cloud detection, and federated learning models. -->
 
           </div>
 
@@ -188,7 +189,13 @@
 <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="/assets/video/2023natural.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
+            <!-- <a href="/assets/video/2023natural.mp4" class="btn btn-sm z-depth-0" role="button">Video</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2023natural.mp4';
+                var videoContainer = document.getElementById('video-container-2023natural.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -226,7 +233,9 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2023natural.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -259,7 +268,13 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2203.03373" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a href="https://github.com/WhoTHU/Adversarial_Texture" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-            <a href="/assets/video/2022texture.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
+            <!-- <a href="/assets/video/2022texture.mp4" class="btn btn-sm z-depth-0" role="button">Video</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2022texture.mp4';
+                var videoContainer = document.getElementById('video-container-2022texture.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -299,7 +314,9 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2022texture.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -331,8 +348,19 @@
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="http://arxiv.org/abs/2205.05909" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-            <a href="/assets/video/2022infrared.mp4" class="btn btn-sm z-depth-0" role="button">Video1</a>
-            <a href="/assets/video/2022infrared_manufacture.mp4" class="btn btn-sm z-depth-0" role="button">Video2</a>
+            <!-- <a href="/assets/video/2022infrared.mp4" class="btn btn-sm z-depth-0" role="button">Video1</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+                var video1Path = '2022infrared.mp4';
+                var videoContainer = document.getElementById('video-container-2022infrared.mp4');
+                toggleVideo(video1Path, videoContainer);
+              })();">Video_1</a>
+            <!-- <a href="/assets/video/2022infrared_manufacture.mp4" class="btn btn-sm z-depth-0" role="button">Video2</a> -->
+            <a class="btn btn-sm z-depth-0" onclick="(function() {
+              var video2Path = '2022infrared_manufacture.mp4';
+              var videoContainer = document.getElementById('video-container-2022infrared_manufacture.mp4');
+              toggleVideo(video2Path, videoContainer);
+            })();">Video_2</a>
+          <!-- Hidden video container -->
           </div>
           
           <div class="badges">
@@ -373,7 +401,10 @@
 
 </figure>
 </div>
-        </div>
+        
+          <div id="video-container-2022infrared.mp4" class="video-container hidden"></div>
+          <div id="video-container-2022infrared_manufacture.mp4" class="video-container hidden"></div>
+      </div>
 </li>
 </ol>
           </div>
@@ -509,5 +540,20 @@
   }
 </script>
 
+    <script>
+  function toggleVideo(videoPath, videoContainer) {
+    if (videoContainer.classList.contains('hidden')) {
+      videoContainer.classList.remove('hidden');
+      var videoElement = document.createElement('video');
+      videoElement.setAttribute('autoplay', '');
+      videoElement.setAttribute('controls', '');
+      videoElement.setAttribute('src', '/assets/video/' + videoPath);
+      videoContainer.appendChild(videoElement);
+    } else {
+      videoContainer.classList.add('hidden');
+      videoContainer.innerHTML = '';
+    }
+  }
+</script>
   </body>
 </html>

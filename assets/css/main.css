@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #B22222;
+  --global-hover-color: #B22222;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -191,8 +191,8 @@ blockquote {
 
 .profile {
   width: 100%;
-  min-width: 100px;
-  max-width: 250px;
+  min-width: 25vh;
+  max-width: 28vh;
 }
 .profile .address {
   margin-bottom: 5px;
@@ -533,6 +533,9 @@ footer.sticky-bottom {
   list-style: none;
   padding: 0;
   margin-top: 0;
+}
+.publications ol.bibliography video {
+  width: 100vh;
 }
 .publications ol.bibliography li {
   margin-bottom: 1rem;
