@@ -23,7 +23,7 @@
           {%- endif -%}
         </div>
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-6">
+        <div id="{{entry.key}}" class="col-sm-7">
         <!-- Title -->
         {%- if entry.link -%}
         <a href="{{entry.link}}"> <div class="title">{{entry.title}}</div> </a>
@@ -267,9 +267,9 @@
         </div>
         {% endif -%}
         {%- if entry.video %}
-          <div id="video-container-{{entry.video}}" class="video-container hidden"></div>
+          <div id="video-container-{{entry.video}}" class="video-container hidden" style="width:100%;"></div>
         {%- endif %}
         {%- if entry.video2 %}
-          <div id="video-container-{{entry.video2}}" class="video-container hidden"></div>
+          <div id="video-container-{{entry.video2}}" class="video-container hidden" style="width:100%;"></div>
         {%- endif %}
       </div>

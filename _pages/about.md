@@ -26,13 +26,11 @@ Contact:\
 &emsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a> Google Scholar 
 &emsp; <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a> Github 
 
-
 Affiliation:\
 &emsp;[Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/csen/),\
 &emsp;[State Key Laboratory of Intelligent Technology and Systems(CSAI)](http://www.csai.tsinghua.edu.cn/),\
 &emsp;[Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing 100084, China
 
-Also affiliated with:\
 &emsp;[Tsinghua Laboratory of Brain and Intelligence (THBI)](https://brain.tsinghua.edu.cn/),\
 &emsp;[IDG/McGovern Institute for Brain Research at Tsinghua](http://mcgovern.life.tsinghua.edu.cn/en),
 

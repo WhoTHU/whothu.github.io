@@ -4,8 +4,8 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-<!--         <header class="post-header">
-          <h1 class="post-title">
+        <header class="post-header">
+<!--           <h1 class="post-title">
            {% if site.show_title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.show_title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
@@ -43,10 +43,12 @@ layout: default
           {%- endif %}
 
           <!-- name -->
+          <div>
           <h1 class="post-title">
            {% if site.show_title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.show_title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
+          </div>
 
           <!-- social -->
           {%- if page.show_social_under_name %}
@@ -54,7 +56,6 @@ layout: default
               {% include social.html %}
             </div>
           {%- endif %}
-
           <!-- content -->
           <div class="clearfix">
             {{ content }}
