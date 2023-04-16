@@ -29,14 +29,13 @@ Contact:\
 Affiliation:\
 &emsp;[Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/csen/),\
 &emsp;[State Key Laboratory of Intelligent Technology and Systems(CSAI)](http://www.csai.tsinghua.edu.cn/),\
-&emsp;[Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing 100084, China
-
-&emsp;[Tsinghua Laboratory of Brain and Intelligence (THBI)](https://brain.tsinghua.edu.cn/),\
-&emsp;[IDG/McGovern Institute for Brain Research at Tsinghua](http://mcgovern.life.tsinghua.edu.cn/en),
+&emsp;[Tsinghua University](https://www.tsinghua.edu.cn/en/), Beijing 100084, China;\
+&emsp;[Tsinghua Laboratory of Brain and Intelligence (THBI)](https://brain.tsinghua.edu.cn/);\
+&emsp;[IDG/McGovern Institute for Brain Research at Tsinghua](http://mcgovern.life.tsinghua.edu.cn/en).
 
 <hr />
 
-I am a Ph.D. student in the Department of Computer Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I have been pursuing my degree since 2017 under the guidance of [Prof. Bo Zhang](https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm) and [Prof. Xiaolin Hu](http://xlhu.cn/). I received my Bachelor’s degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/en/). My current research interest primarily includes adversarial examples and privacy risks in deep learning models. With a keen interest in identifying and tackling anomalous behavior in deep learning models, my goal is to contribute to the development of reliable and trustworthy AI systems.
+I am a Ph.D. student in the Department of Computer Science at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Bo Zhang](https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm) and [Prof. Xiaolin Hu](http://xlhu.cn/). I received my Bachelor’s degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2017. My current research interest primarily includes adversarial examples and privacy in deep learning models. My goal is to contribute to the development of reliable and trustworthy AI systems by identifying and tackling anomalous behavior in deep learning models.
 
 
 <!-- , including visual classification, visual detection, point-cloud detection, and federated learning models. -->
