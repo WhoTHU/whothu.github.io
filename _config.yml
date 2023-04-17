@@ -110,6 +110,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
+google_html_tab: zqDINrZWRkE-0Z1nlUUh2vdQu_gmE0u2ex6tMBXsmm0  # your Google HTML tab ID to allow google tracking your site
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
@@ -348,7 +349,8 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    True  # enables google analytics
+enable_google_html_tab:     true  # enables google html tab
+enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: True  # enables google site verification
 enable_bing_verification:   True  # enables bing site verification
