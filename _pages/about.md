@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Contact:\
-&emsp; <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a> huzhanha17[AT]mails[DOT]tsinghua[DOT]edu[DOT]cn \
+&emsp; <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a> zhanhaohu[DOT]cs[AT]gmail[DOT]com \
 &emsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a> Google Scholar 
 &emsp; <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a> Github 
 
