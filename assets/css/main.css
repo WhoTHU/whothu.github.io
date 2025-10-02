@@ -548,6 +548,7 @@ footer.sticky-bottom {
   max-width: 400px;
 }
 .publications ol.bibliography li .abbr {
+  width: 4.5rem;
   height: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -556,6 +557,8 @@ footer.sticky-bottom {
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
+  display: flex;
+  justify-content: center;
 }
 .publications ol.bibliography li .abbr abbr a {
   color: white;
@@ -568,11 +571,14 @@ footer.sticky-bottom {
   border: 1px solid var(--global-theme-color);
 }
 .publications ol.bibliography li .emph {
+  width: 4.5rem;
   height: 2rem;
   margin-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: var(--global-theme-color) !important;
+  display: flex;
+  justify-content: center;
 }
 .publications ol.bibliography li .title {
   font-weight: bolder;
