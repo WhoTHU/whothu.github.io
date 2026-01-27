@@ -37,7 +37,7 @@ I am a postdoc in the [Department of Electrical Engineering and Computer Science
 
 My research interests include robustness/safety/security issues in deep learning, especially in Computer Vision (CV) and Large Language Models (LLMs). My current focuses are adversarial examples, jailbreaking, and prompt injection. 
 
-My view is that robustness is a necessary condition for Artificial General Intelligence (AGI). It provides a perspective on evaluating whether and how a paradigm can lead to AGI. It is a good perspective because people in this area consider boundaries of deep learning algorithms instead of evaluating them statically. **Think about this:** how can you believe an AI that cannot understand "safety" and cannot reliably follow instructions is able to understand your work?
+My view is that robustness is a necessary condition for Artificial General Intelligence (AGI). It provides a perspective on understanding whether and how a paradigm can lead to AGI. It is a good perspective because people in this area consider boundaries of deep learning algorithms instead of evaluating them statically. **Think about this:** If an AI cannot understand "safety" and cannot reliably follow instructions, how can you believe it is able to understand your work?
 
 <!-- My goal is to contribute to the development of reliable and trustworthy future AI systems by identifying and tackling anomalous behavior in deep learning models. -->
 
