@@ -35,9 +35,13 @@ Affiliation:\
 
 I am a postdoc in the [Department of Electrical Engineering and Computer Sciences (EECS)](https://eecs.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), advised by Prof. [David Wagner](https://people.eecs.berkeley.edu/~daw/). I received my Ph.D. in Computer Science and Technology from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2023, advised by Prof. [Bo Zhang](https://www.cs.tsinghua.edu.cn/csen/info/1059/4006.htm) and Prof. [Xiaolin Hu](http://xlhu.cn/). I  was also honored to work with Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and Prof. [Jianming Li](https://www.cs.tsinghua.edu.cn/info/1122/3567.htm). I received my Bachelor’s degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2017. 
 
-My research interests include the safety and robustness in deep learning, especially in Computer Vision (CV) and Large Language Models (LLMs), such as adversarial examples, jailbreaking, and prompt injection. My goal is to contribute to the development of reliable and trustworthy future AI systems by identifying and tackling anomalous behavior in deep learning models.
+My research interests include robustness/safety/security issues in deep learning, especially in Computer Vision (CV) and Large Language Models (LLMs). My current focuses are adversarial examples, jailbreaking, and prompt injection. 
 
-<p class="emphasis">I'm on the job market this year. If you are interested in my profile, please feel free to contact me.</p>
+My view is that robustness is a necessary condition for Artificial General Intelligence (AGI). It provides a perspective on evaluating whether and how a paradigm can lead to AGI. It is a good perspective because people in this area consider boundaries of deep learning algorithms instead of evaluating them statically. **Think about this:** how can you believe an AI that cannot understand "safety" and cannot reliably follow instructions is able to understand your work?
+
+<!-- My goal is to contribute to the development of reliable and trustworthy future AI systems by identifying and tackling anomalous behavior in deep learning models. -->
+
+<p class="emphasis">I'm in the job market this year.</p>
 
 
 Special thanks to [Kexin](https://quekexin.github.io/) for taking the profile picture.
