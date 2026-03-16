@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: cv
 nav: True
-nav_order: 4
+nav_order: 3
 cv_pdf: HuZhanhao_CV.pdf
 ---
 

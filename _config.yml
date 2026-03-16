@@ -117,22 +117,22 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
-# # -----------------------------------------------------------------------------
-# # Blog
-# # -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
 
-# blog_name:  # blog_name will be displayed in your blog page
-# blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-# blog_description: something in future
-# permalink: /blog/:year/:title/
+blog_name:  # blog_name will be displayed in your blog page
+blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: Some writing about my research and thoughts on AI, machine learning, and deep learning. # a description of your blog
+permalink: /blog/:year/:title/
 
-# # Pagination
-# pagination:
-#   enabled: true
+# Pagination
+pagination:
+  enabled: true
 
-# related_blog_posts:
-#   enabled: true
-#   max_related: 5
+related_blog_posts:
+  enabled: true
+  max_related: 5
 
 # # Giscus comments (RECOMMENDED)
 # # Follow instructions on https://giscus.app/ to setup for your repo to fill out
@@ -261,7 +261,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['thoughts', 'essay'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
