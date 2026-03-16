@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My Research Journey Part 1 - from SNN to Adversarial Examples to LLMs
+title:  My Research Journey Part 1 - A Path from SNN to Adversarial Examples to LLMs
 date:   2026-03-15 16:37:00
 description: 
 tags: thoughts essay
