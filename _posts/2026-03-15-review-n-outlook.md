@@ -60,7 +60,7 @@ To truly solve these problems, our future research must move toward:
 
 ---
 
-### 3. Conclusion: A Call for a Holistic View of the Field
+### 3. A Call for a Holistic View of the Field
 
 By sharing this review and outlook, I hope to encourage a more holistic view of the field. While the immediate pressures of deployment will always drive a focus on "Engineering Targets," we must not lose sight of the "Research Questions" that will ultimately lead us to a reliable and beneficial AGI. 
 
