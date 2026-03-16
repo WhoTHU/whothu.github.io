@@ -49,7 +49,7 @@ As we look toward the future, the rise of Large Language Models (LLMs) and the p
 #### The Engineering Outlook (Immediate Impact)
 Current efforts to secure these models:
 * **Reinforcement learning & Alignment:** Training models to follow safety/robust guidelines or pursue "truthfulness" by using human feedback, reward models, or adversarial training to directly optimize for relevent metrics.
-* **Red Teaming & Safety Guardrails:** Proactively stress-testing models with adversarial prompts to build external filtering layers.
+* **Safety Guardrails:** Proactively stress-testing models with adversarial prompts to build external filtering layers, using detection or reasoning modules to catch and mitigate harmful outputs.
 * **Agentic Design:** Refining workflow and system architecture to minimize attack surfaces.
 
 #### The Research Outlook (Foundational Shift)
