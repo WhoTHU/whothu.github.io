@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Lessons from My Research Journey Part 2 - The Curse of Goodhart’s Law and the Duality
+title:  My Research Journey Part 2 - Lessons of The Curse of Goodhart’s Law and the Duality
 date:   2026-03-15 16:37:00
 description: 
 tags: thoughts essay
@@ -47,7 +47,7 @@ As we look toward the future, the rise of Large Language Models (LLMs) and the p
 
 
 #### The Engineering Outlook (Immediate Impact)
-Current efforts to secure these World Models involve:
+Current efforts to secure these models:
 * **Reinforcement learning & Alignment:** Training models to follow safety/robust guidelines or pursue "truthfulness" by using human feedback, reward models, or adversarial training to directly optimize for relevent metrics.
 * **Red Teaming & Safety Guardrails:** Proactively stress-testing models with adversarial prompts to build external filtering layers.
 * **Agentic Design:** Refining workflow and system architecture to minimize attack surfaces.
