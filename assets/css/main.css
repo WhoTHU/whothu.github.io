@@ -720,6 +720,10 @@ html.transition *:after {
 .post .post-tags a:hover {
   color: var(--global-theme-color);
 }
+.post .post-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
 .post .post-content blockquote {
   border-left: 5px solid var(--global-theme-color);
   padding: 8px;
