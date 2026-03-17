@@ -48,12 +48,12 @@ As we look toward the future, the rise of Large Language Models (LLMs) and the p
 
 #### The Engineering Outlook (Immediate Impact)
 Current efforts to secure these models:
-* **Reinforcement learning & Alignment:** Training models to follow safety/robust guidelines or pursue "truthfulness" by using human feedback, reward models, or adversarial training to directly optimize for relevent metrics.
+* **Reinforcement Learning & Alignment:** Training models to follow safety/robust guidelines or pursue "truthfulness" by using human feedback, reward models, or adversarial training to directly optimize for relevent metrics.
 * **Safety Guardrails:** Proactively stress-testing models with adversarial prompts to build external filtering layers, using detection or reasoning modules to catch and mitigate harmful outputs.
 * **Agentic Design:** Refining workflow and system architecture to minimize attack surfaces.
 
 #### The Research Outlook (Foundational Shift)
-To truly solve these problems, our future research must move toward:
+Potential directions to solve these problems:
 * **Robust World Models:** Building systems that internalize the underlying rules and causal structures of reality, making them naturally resistant to both noise and logic collapses.
 * **Causal Inference & Invariant Learning:** Moving beyond "statistical correlation" to ensure models ignore "shortcuts" that lead to both hallucinations and adversarial vulnerabilities.
 * **Mechanistic Interpretability:** Peering into the "black box" to understand how internal circuits represent "truth" versus "statistical noise." This might give us insights into how to design models that are inherently more robust.
