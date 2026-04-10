@@ -43,7 +43,7 @@ A simple intuition is this: if an AI system cannot reliably follow instructions 
 
 <!-- My goal is to contribute to the development of reliable and trustworthy future AI systems by identifying and tackling anomalous behavior in deep learning models. -->
 
-<p class="emphasis">I'm on the job market this year.</p>
+<!-- <p class="emphasis">I'm on the job market this year.</p> -->
 
 
 Special thanks to [Kexin](https://quekexin.github.io/) for taking the profile picture.
