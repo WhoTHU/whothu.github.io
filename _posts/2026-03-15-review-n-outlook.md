@@ -3,7 +3,7 @@ layout: post
 title:  My Research Journey Part 2 - Lessons of The Curse of Goodhart’s Law and the Duality
 date:   2026-03-15 16:37:00
 description: 
-tags: thoughts essay
+tags: random research
 categories: sample-posts
 ---
 
