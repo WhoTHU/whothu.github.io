@@ -39,7 +39,7 @@ My research focuses on robustness, safety, and security issues in deep learning,
 
 More broadly, I view robustness as a necessary condition for Artificial General Intelligence (AGI). Studying robustness provides a way to evaluate whether a learning paradigm can truly generalize beyond the environments it was trained in. Rather than measuring performance only on static benchmarks, robustness research examines how models behave under distribution shifts, adversarial inputs, and other challenging scenarios.
 
-A simple intuition is this: if an AI system cannot reliably follow instructions or understand safety constraints, it is hard to claim that it genuinely understands the tasks we assign to it. From this perspective, robustness and safety research is not just about fixing vulnerabilities—it is about probing the fundamental capabilities and limits of intelligent systems.
+A simple intuition is this: if an AI system cannot reliably follow instructions or understand safety constraints, it is hard to claim that it genuinely understands the tasks we assign to it. From this perspective, robustness and safety research is not just about fixing vulnerabilities—it is about probing the fundamental capabilities and limits of intelligent systems. See my [blog posts](https://whothu.github.io/blog/) for more discussions.
 
 <!-- My goal is to contribute to the development of reliable and trustworthy future AI systems by identifying and tackling anomalous behavior in deep learning models. -->
 
